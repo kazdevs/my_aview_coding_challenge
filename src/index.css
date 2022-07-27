@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@500&family=Splash&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@500&family=Overpass:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Splash&display=swap');
+
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  /* fonts */
+  --font-family: 'Inter', sans-serif;
+  --font-family-for-text: 'Overpass', sans-serif;
+
+  /* colors */
+  --standard-bgc: #e5e5e5;
+  --standard-box-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.075) 52.08%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  --hover-gradient: linear-gradient(334.7deg, #fe3688 0%, #73bcff 94.7%);
+  --hover-box-bgc: #16193d;
+  --color-text: #ffffff;
+  --clr-primary-1: hsl(205, 86%, 17%);
+}
